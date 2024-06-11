@@ -13,7 +13,7 @@ Ogni treno dovrà avere:
 È probabile che siano necessarie altre colonne per far funzionare la tabella nel modo corretto ;) ...
 Nel file di migration in un commento inserite la "traduzione" in MySQL del codice che crea la tabella.
 
-[] Milestone 2:
+[x] Milestone 2:
 Aggiungiamo un paio di righe nella tabella ramite l'interfaccia di PHPMyAdmin
 
 [] Milestone 3:
