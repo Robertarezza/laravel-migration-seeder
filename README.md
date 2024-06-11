@@ -1,4 +1,4 @@
-[] Milestone 1:
+[x] Milestone 1:
 Creiamo una tabella trains e relativa Migration
 Ogni treno dovrà avere:
 - Azienda
