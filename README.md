@@ -16,7 +16,8 @@ Nel file di migration in un commento inserite la "traduzione" in MySQL del codic
 [x] Milestone 2:
 Aggiungiamo un paio di righe nella tabella ramite l'interfaccia di PHPMyAdmin
 
-[] Milestone 3:
+[x] Milestone 3:
 Create Model relativo ed un Controller per mostrare nella home page tutti i treni che sono in partenza dalla data odierna (fate una tabella).
+
 Bonus:
 Abbellite il tutto usando SASS.
