@@ -8,11 +8,11 @@
             <th scope="col">ID</th>
             <th scope="col">Compagnia</th>
             <th scope="col">Stazione di Partenza</th>
-            <th scope="col">Orario di Partenza</th>
-            <th scope="col">Giono di Partenza</th>
             <th scope="col">Stazione di Arrivo</th>
-            <th scope="col">Orario di Arrivo</th>
+            <th scope="col">Giono di Partenza</th>
+            <th scope="col">Orario di Partenza</th>
             <th scope="col">Giorno di Arrivo</th>
+            <th scope="col">Orario di Arrivo</th>
             <th scope="col">Numero Treno</th>
             <th scope="col">Numero di carrozze</th>
             <th scope="col">In Orario</th>
@@ -26,10 +26,10 @@
             <td>{{ $train->company }}</td>
             <td>{{ $train->departure_station }}</td>
             <td>{{ $train->arrival_station }}</td>
+            <td>{{ date('d/m/Y', strtotime($train->departure_date))}}</td>
             <td>{{ $train->departure_time }}</td>
-            <td>{{ $train->departure_date }}</td>
+            <td>{{date('d/m/Y', strtotime($train->arrival_date))}}</td>
             <td>{{ $train->arrival_time }}</td>
-            <td>{{ $train->arrival_date }}</td>
             <td>{{ $train->train_code }}</td>
             <td>{{ $train->number_of_carriages }}</td>
             <td>{{ $train->on_time ? 'Yes' : 'No' }}</td>
