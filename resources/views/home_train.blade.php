@@ -5,7 +5,7 @@
     <table class="table">
     <thead>
         <tr>
-            <th scope="col">ID</th>
+            <!-- <th scope="col">ID</th> -->
             <th scope="col">Compagnia</th>
             <th scope="col">Stazione di Partenza</th>
             <th scope="col">Stazione di Arrivo</th>
@@ -22,7 +22,7 @@
     <tbody>
         @foreach ($trainList as $train)
         <tr>
-            <th scope="row">{{ $train->id }}</th>
+            <!-- <th scope="row">{{ $train->id }}</th> -->
             <td>{{ $train->company }}</td>
             <td>{{ $train->departure_station }}</td>
             <td>{{ $train->arrival_station }}</td>

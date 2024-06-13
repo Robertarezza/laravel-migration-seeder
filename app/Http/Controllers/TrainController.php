@@ -10,8 +10,11 @@ class TrainController extends Controller
     public function index() {
         //$trainList = train::all();
         //dd($trainList);
-        $trainList = Train::whereDate('departure_date', now()->toDateString())->get();
-        
+        //$trainList = Train::whereDate('departure_date', now()->toDateString())->get();
+        $curDate = date('Y-m-d');
+
+        $trainList = Train::whereDate('departure_date', ">=", $curDate)->get();
+
         return view('home_train', compact('trainList'));
     }
 }
